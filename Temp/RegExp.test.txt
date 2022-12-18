@@ -1,0 +1,13 @@
+#addzx a new package to the project
+
+#remove
+
+#update
+
+#build
+
+#reset
+
+%package
+
+%Test
