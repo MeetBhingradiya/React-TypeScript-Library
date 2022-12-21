@@ -43,7 +43,6 @@ function Execute() {
         console.log('No Commands Found');
         process.exit(1);
     }
-    
 
     commands.forEach(async (command) => {
         await command();

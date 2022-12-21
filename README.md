@@ -1,16 +1,19 @@
 # React Typescript Library Template
+Ultimate React-TypeScript-Library-Template amd your daily development workSpace too.
 
 >#### Articles
 > + [Features](#features)
 > + [Upcoming Features](#upcoming-features)
+> + [Installation](#installation)
+> + [Contributers](#contributers)
 > + [License](#license)
->
-A template to create a react component / library with Typescript.
-
-
+> + [Acknowledgments](#acknowledgments)
+> + [Contributing](/CONTRIBUTING.md)
+> + [Code of Conduct](/CODE_OF_CONDUCT.md)
+> + [Change Log](/CHANGELOG.md)
 
 ## Features
-- React Component / Library
+- React Component
 - Typescript
 - Rollup
 - Css Modules With Sass
@@ -59,12 +62,12 @@ OR
 yarn create react-typescript-library my-react-library
 ``` -->
 
->## Contributers
->
->1. [Ali Oguzhan](https://github.com/alioguzhan)
-> + React Package Author and Maintainer
->2. [Meet Bhingradiya](https://github.com/MeetBhingradiya)
-> + Scripts CLI Author and Maintainer
+## Contributers
+
+1. [Ali Oguzhan](https://github.com/alioguzhan)
++ React Package Author and Maintainer
+2. [Meet Bhingradiya](https://github.com/MeetBhingradiya)
++ Scripts and CLI Author and Maintainer
 
 - Please read [CONTRIBUTING.md](./CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
@@ -73,6 +76,6 @@ yarn create react-typescript-library my-react-library
 
 ## Acknowledgments
 
-+ This Readme has Limite Imformation. Please Read [React-Library-Template](https://github.com/alioguzhan/react-typescript-library) for mode details on our react library template.
++ This Readme has Limited Imformation. Please Read [React-Library-Template](https://github.com/alioguzhan/react-typescript-library) for more details on our react library template.
 
-+ This Template is Created From [React-Library-Template](https://github.com/alioguzhan/react-typescript-library)
++ This Template is Created From [React-TypeScript-Library-Template](https://github.com/alioguzhan/react-typescript-library)
