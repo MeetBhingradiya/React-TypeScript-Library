@@ -8,6 +8,8 @@ Ultimate React-TypeScript-Library-Template amd your daily development workSpace 
 > + [Contributers](#contributers)
 > + [License](#license)
 > + [Acknowledgments](#acknowledgments)
+> + [Tags and Versioning](#tags-and-versioning)
+> + [Releases](https://github.com/MeetBhingradiya/React-TypeScript-Library/releases)
 > + [Contributing](/CONTRIBUTING.md)
 > + [Code of Conduct](/CODE_OF_CONDUCT.md)
 > + [Change Log](/CHANGELOG.md)
@@ -24,15 +26,16 @@ Ultimate React-TypeScript-Library-Template amd your daily development workSpace 
 - Optional `example app` generation for testing
 - `Github Pages` integration
 - Release-Please workflow
+- Custom Execute Function Like ```yarn``` and ```npm``` in ```CLI Update 1.0.0```
 
 ### Upcoming Features 
 - A Perfect Spot For Your Daily Development WorkSpace ```Core Update```
 - Multiple Packages Support ```Core Update```
 - Multiple Testing React Apps Support ```Core Update```
 - Github Packages Support (npm and yarn) ```Core Update```
-- NPM Scripts ```CLI Update```
 - Yarn Scripts ```CLI Update```
 - Interactive and Colorful ```CLI Update```
+- Ultimate Config that Can Manage all Files of the Project ```CLI Update```
 
 ## Installation
 
@@ -79,3 +82,17 @@ yarn create react-typescript-library my-react-library
 + This Readme has Limited Imformation. Please Read [React-Library-Template](https://github.com/alioguzhan/react-typescript-library) for more details on our react library template.
 
 + This Template is Created From [React-TypeScript-Library-Template](https://github.com/alioguzhan/react-typescript-library)
+
+## Tags and Versioning
+> #### Note
+> + This Template is in Development. So, The Versioning is not Stable. It will be Stable Soon.
+> + Every Update We Create a Release. So, You can Check the Release Notes for More Details.
+> + Do Not Download the Template from the ```Release``` branch. Download the Template from [Release List](https://github.com/MeetBhingradiya/React-TypeScript-Library/releases).
+> + The Versioning is Based on [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/).
+
+
++ ```Core Update``` : Core Update is a Major Update. It will be a Major Version Update.
++ ```CLI Update``` : CLI Update is a Minor Update. It will be a Minor Version Update.
++ ```Bug Fix``` : Bug Fix is a Patch Update. It will be a Patch Version Update.
++ ```Branch Update``` : Branch Update is a Patch Update. It will be a Patch Version Update.
++ ```Colors Update``` : Colors Update is a Patch Update. It will be a Patch Version Update.

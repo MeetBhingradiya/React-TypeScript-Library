@@ -7,17 +7,17 @@
         "init": "ts-node ./Core/index.ts",
         "start": "ts-node ./Core/index.ts",
         "add:package": "ts-node ./Core/index.ts #add %package",
-        "add:Test": "ts-node ./Core/index.ts #add %Test",
+        "add:test": "ts-node ./Core/index.ts #add %Test",
         "remove:package": "ts-node ./Core/index.ts #remove %package",
-        "remove:Test": "ts-node ./Core/index.ts #remove %Test",
+        "remove:test": "ts-node ./Core/index.ts #remove %Test",
         "link:package": "ts-node ./Core/index.ts #link %package",
-        "link:Test": "ts-node ./Core/index.ts #link %Test",
+        "link:test": "ts-node ./Core/index.ts #link %Test",
         "publish:package": "ts-node ./Core/index.ts #publish %package",
-        "publish:Test": "ts-node ./Core/index.ts #publish %Test",
+        "publish:test": "ts-node ./Core/index.ts #publish %Test",
         "reset:package": "ts-node ./Core/index.ts #reset %package",
-        "reset:Test": "ts-node ./Core/index.ts #reset %Test",
+        "reset:test": "ts-node ./Core/index.ts #reset %Test",
         "build:package": "ts-node ./Core/index.ts #build %package",
-        "build:Test": "ts-node ./Core/index.ts #build %Test"
+        "build:test": "ts-node ./Core/index.ts #build %Test"
     },
     "keywords": [
         "react",
@@ -35,6 +35,7 @@
         "@types/prompt": "^1.1.4"
     },
     "dependencies": {
+        "colors": "^1.4.0",
         "dotenv": "^16.0.3",
         "prompt": "^1.3.0",
         "ts-node": "^10.9.1",

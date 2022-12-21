@@ -15,3 +15,9 @@ this file detect what command should be run
 you open Core/Commands.ts and add new command to the list
 and add in package.json the new command to the list of commands in the scripts section
 + [Commands.ts](../Core/commands.ts)
+
+
+
+### yarn Setup,Start,install
+
++ 

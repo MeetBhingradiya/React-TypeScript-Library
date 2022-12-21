@@ -4,7 +4,14 @@ interface Command_Type {
     description?: String;
     alias?: Array<String>;
     type?: 'Command' | 'Template';
+    /**
+     * Command Function add Heare only for ```Command``` type.  
+     */
     function?: Function;
+    /**
+     * Template Install Command add Heare ```npm or npx``` does not support for now. only for ```Template``` type.
+     */
+    teamplate? : String;
 }
 
 const Commands: Array<Command_Type> = [
