@@ -1,15 +1,22 @@
-<div align="center">
-  <img src="./tools/tsreact.png" width="500" alt="react loves typescript">
-</div>
-
 # React Typescript Library Template
+Ultimate React-TypeScript-Library-Template amd your daily development workSpace too.
 
-A template to create a react component / library with Typescript.
+>#### Articles
+> + [Features](#features)
+> + [Upcoming Features](#upcoming-features)
+> + [Installation](#installation)
+> + [Contributers](#contributers)
+> + [License](#license)
+> + [Acknowledgments](#acknowledgments)
+> + [Contributing](/CONTRIBUTING.md)
+> + [Code of Conduct](/CODE_OF_CONDUCT.md)
+> + [Change Log](/CHANGELOG.md)
 
-- React
+## Features
+- React Component
 - Typescript
 - Rollup
-- Css Modules
+- Css Modules With Sass
 - Jest with code coverage report
 - `Typedoc` for API documentation
 - `commitlint` for conventional-commits
@@ -18,77 +25,57 @@ A template to create a react component / library with Typescript.
 - `Github Pages` integration
 - Release-Please workflow
 
-## Install
+### Upcoming Features 
+- A Perfect Spot For Your Daily Development WorkSpace ```Core Update```
+- Multiple Packages Support ```Core Update```
+- Multiple Testing React Apps Support ```Core Update```
+- Github Packages Support (npm and yarn) ```Core Update```
+- NPM Scripts ```CLI Update```
+- Yarn Scripts ```CLI Update```
+- Interactive and Colorful ```CLI Update```
 
-Clone the repository:
+## Installation
 
+>### Method 1 Manualy Download
+>
+>+ Download Template and Extract it Where Your WorkSpace is Located.
+>+ Open Terminal and Navigate to the Template Folder.
+>+ Run ```npm run setup``` or ```yarn setup``` to install all the dependencies.
+>+ once the installation is completed, A prompt will welcome you. Answer those questions and the installer will bootstrap the environment for you.
+>+ You can check if there are any outdated package you run ```yarn upgrade``` tool to update all the packages automatically.
+>+ Run ```yarn start:package``` to Wach your typescript files and compile them to javascript files OR Run ```yarn start:test``` to Start the React App for Testing.
+> 
+> Good Luck to Your Library Development OR Project Development. from ```React Typescript Library Template Team```
+
+>### Method 2 Using Package Managers
+>
+> Coming Soon !
+
+
+<!-- ```bash
+npx react-typescript-library my-react-library
 ```
-git clone --depth 1 git@github.com:alioguzhan/react-typescript-library.git
-```
 
-Rename the cloned folder to your library/component name:
-
-```
-mv react-typescript-library my-react-lib
-```
-
-Install the deps:
+OR
 
 ```bash
-cd my-react-lib
-yarn install
-```
+yarn create react-typescript-library my-react-library
+``` -->
 
-Once the installation is completed, A prompt will welcome you. Answer those questions and the installer will bootstrap the environment for you.
+## Contributers
 
-> You can check if there are any outdated package with [npm-check-updates](https://www.npmjs.com/package/npm-check-updates) tool.
+1. [Ali Oguzhan](https://github.com/alioguzhan)
++ React Package Author and Maintainer
+2. [Meet Bhingradiya](https://github.com/MeetBhingradiya)
++ Scripts and CLI Author and Maintainer
 
-## Development
+- Please read [CONTRIBUTING.md](./CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
-Write your library code to `src/index.tsx` file and run:
+## License
+```Apache License 2.0```
 
-```
-yarn start
-```
+## Acknowledgments
 
-This will watch your changes and reloads the server.
++ This Readme has Limited Imformation. Please Read [React-Library-Template](https://github.com/alioguzhan/react-typescript-library) for more details on our react library template.
 
-### Commit Messages
-
-This setup expects you to follow conventional-commits format. There is a husky command runs before every commit for validation.
-
-To learn more about conventional commits see [its website](https://www.conventionalcommits.org/en/v1.0.0/).
-
-You can remove that section from `package.json` also remove the related package(s):
-
-```
-yarn remove -D @commitlint/cli
-```
-
-## Build
-
-Run:
-
-```
-yarn build
-```
-
-This will create your compiled files under `./dist` folder. And generates a documentation with `TypeDoc` under `./docs` folder.
-
-## Test
-
-Jest is configured and ready to use. Just run:
-
-```
-yarn test
-```
-
-## Docs
-
-This template uses [TypeDoc](https://typedoc.org/) by default.
-
-Run `yarn make:docs` and a folder named `docs` will be created in your root directory. Just open `index.html` in your browser to see if your like it or not.
-
-## CREDITS
-
-- Logo Design by [@fyunusyildiz](https://github.com/fyunusyildiz)
++ This Template is Created From [React-TypeScript-Library-Template](https://github.com/alioguzhan/react-typescript-library)
