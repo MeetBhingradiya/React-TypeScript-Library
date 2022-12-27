@@ -1,5 +1,5 @@
 # React Typescript Library Template
-Ultimate React-TypeScript-Library-Template amd your daily development workSpace too.
+Ultimate React-TypeScript-Library-Template and your daily development workSpace too.
 
 >#### Articles
 > + [Features](#features)

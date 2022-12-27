@@ -5,6 +5,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased Commit History]
++ @TeamSM/RTLT CLI Startup Added [CLI Update 1]
+> Added CLI With Startup Color Interface
++ @TeamSM/RTLT init 4
+> Initial commit 4
 + @TeamSM/RTLT init 3
 > Initial commit 3
 + @TeamSM/RTLT LICENSE Added 
